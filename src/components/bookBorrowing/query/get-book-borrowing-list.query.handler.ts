@@ -24,7 +24,7 @@ export class GetBookBorrowingListHandler implements IHandler {
       return {
         code: 200,
         success: true,
-        message: "Book created successfully",
+        message: "Booklist fetched successfully",
         data: response,
       };
     } catch (error) {
